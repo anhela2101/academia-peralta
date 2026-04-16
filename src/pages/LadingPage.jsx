@@ -15,28 +15,28 @@ import { useNavigate } from 'react-router-dom';
 import Button from '../components/generals/Button';
 
 // Importación de activos locales
-import Banner from '../assets/img/Banner.png';
-import loginImage from '../assets/img/login.png';
-import logoBlanco from "../assets/img/logoBlanco.png";
+import Banner from '../assets/img/Banner.png'
+import loginImage from '../assets/img/login.png'
+import logoBlanco from "../assets/img/logoBlanco.png"
 
-import bgFeatures from '../assets/img/Banner2.png';
-import medicosExperiencia from '../assets/img/Banner3.png';
-import logoDrVigo from '../assets/img/parche.jpg'; 
-import fondoCurvo from '../assets/img/fondoT.png'; 
-import pieImage from '../assets/img/pie.png'; 
+import bgFeatures from '../assets/img/Banner2.png'
+import medicosExperiencia from '../assets/img/Banner3.png'
+import logoDrVigo from '../assets/img/parche.jpg'
+import fondoCurvo from '../assets/img/fondoT.png'
+import pieImage from '../assets/img/pie.png'
 
 // Logos de certificación (o universidades objetivo)
-import img1 from '../assets/img/img1.jpg'; 
-import img2 from '../assets/img/img2.jpg'; 
-import img3 from '../assets/img/img3.jpg'; 
-import img4 from '../assets/img/img4.jpg'; 
-import img5 from '../assets/img/img5.jpg'; 
-import img6 from '../assets/img/img6.jpg';
+import img1 from '../assets/img/img1.jpg'
+import img2 from '../assets/img/img2.jpg' 
+import img3 from '../assets/img/img3.jpg' 
+import img4 from '../assets/img/img4.jpg' 
+import img5 from '../assets/img/img5.jpg' 
+import img6 from '../assets/img/img6.jpg'
 
 // Fotos de instructores / profesores
-import dr1 from '../assets/img/dr1.webp';
-import dr2 from '../assets/img/dr2.avif';
-import dr3 from '../assets/img/dr3.avif';
+import dr1 from '../assets/img/dr1.webp'
+import dr2 from '../assets/img/dr2.avif'
+import dr3 from '../assets/img/dr3.avif'
 
 /* --- SUB-COMPONENTES AUXILIARES --- */
 

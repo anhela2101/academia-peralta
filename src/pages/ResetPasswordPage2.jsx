@@ -2,7 +2,7 @@ import React from 'react'
 import { CircleArrowOutUpRight, Check } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import loginImage from '../assets/img/login.png'
-import logoBlanco from "../assets/img/logoBlanco.png";
+import logoBlanco from "../assets/img/logoBlanco.png"
 import Button from '../components/generals/Button'
 
 const ResetPasswordPage2 = () => {
