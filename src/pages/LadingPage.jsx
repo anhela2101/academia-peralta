@@ -17,13 +17,13 @@ import Button from '../components/generals/Button';
 // Importación de activos locales
 import Banner from '../assets/img/Banner.png'
 import loginImage from '../assets/img/login.png'
-import logoBlanco from "../assets/img/logoBlanco.png"
+import logoBlanco from '../assets/img/logoBlanco.png'
 
 import bgFeatures from '../assets/img/Banner2.png'
 import medicosExperiencia from '../assets/img/Banner3.png'
-import logoDrVigo from '../assets/img/parche.jpg'
+import pieImage from '../assets/img/pie.png';
 import fondoCurvo from '../assets/img/fondoT.png'
-import pieImage from '../assets/img/pie.png'
+
 
 // Logos de certificación (o universidades objetivo)
 import img1 from '../assets/img/img1.jpg'
