@@ -7,7 +7,7 @@ import {
   ShoppingBag,
   HelpCircle
 } from 'lucide-react'
-import logoBlanco from '../assets/img/logoBlanco.png'
+import logoBlanco from '../../assets/img/logoBlanco.png'
 
 const menuItems = [
   {
