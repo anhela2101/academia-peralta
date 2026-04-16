@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Eye, EyeOff, CircleArrowOutUpRight, Loader2 } from 'lucide-react'
 import loginImage from '../assets/img/login.png';
 import loginImage from '../assets/img/login.png';
-import logoBlanco from "../assets/img/LogoBlanco.png";
+import logoBlanco from "../assets/img/logoBlanco.png";
 import Input from '../components/generals/Input';
 import Button from '../components/generals/Button';
 import { useNavigate } from 'react-router-dom';

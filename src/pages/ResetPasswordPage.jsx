@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ArrowRight, CircleArrowOutUpRight, Info } from 'lucide-react'
 import loginImage from '../assets/img/login.png'
-import logoBlanco from '../assets/img/LogoBlanco.png'
+import logoBlanco from "../assets/img/logoBlanco.png";
 import Input from '../components/generals/Input'
 import Button from '../components/generals/Button'
 

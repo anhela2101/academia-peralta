@@ -17,7 +17,7 @@ import Button from '../components/generals/Button';
 // Importación de activos locales
 import Banner from '../assets/img/Banner.png';
 import loginImage from '../assets/img/login.png';
-import logoBlanco from "../assets/img/LogoBlanco.png";
+import logoBlanco from "../assets/img/logoBlanco.png";
 
 import bgFeatures from '../assets/img/Banner2.png';
 import medicosExperiencia from '../assets/img/Banner3.png';
