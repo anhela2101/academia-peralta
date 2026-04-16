@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Eye, EyeOff, ArrowRight, CircleArrowOutUpRight } from 'lucide-react'
 import ReactFlagsSelect from 'react-flags-select'
 import loginImage from '../assets/img/login.png'
-import logoBlanco from '../assets/img/LogoBlanco.png'
+import logoBlanco from "../assets/img/LogoBlanco.png";
 import Input from '../components/generals/Input'
 import Button from '../components/generals/Button'
 
