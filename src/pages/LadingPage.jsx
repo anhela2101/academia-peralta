@@ -21,7 +21,7 @@ import logoBlanco from '../assets/img/logoBlanco.png'
 
 import bgFeatures from '../assets/img/Banner2.png'
 import medicosExperiencia from '../assets/img/Banner3.png'
-import pieImage from '../assets/img/pie.png';
+
 import fondoCurvo from '../assets/img/fondoT.png'
 
 
