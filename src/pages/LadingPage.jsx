@@ -16,27 +16,13 @@ import Button from '../components/generals/Button';
 
 // Importación de activos locales
 import Banner from '../assets/img/Banner.png'
-import loginImage from '../assets/img/login.png'
-import logoBlanco from '../assets/img/logoBlanco.png'
+// IMPORTANTE: Asegúrate de que esta ruta existe. Si la imagen es login.png o logoBlanco.png úsala así.
+// He renombrado el import a 'logo' para que coincida con tus etiquetas <img> abajo.
+import logo from '../assets/img/logoBlanco.png' 
 
 import bgFeatures from '../assets/img/Banner2.png'
 import medicosExperiencia from '../assets/img/Banner3.png'
-
 import fondoCurvo from '../assets/img/fondoT.png'
-
-
-// Logos de certificación (o universidades objetivo)
-import img1 from '../assets/img/img1.jpg'
-import img2 from '../assets/img/img2.jpg' 
-import img3 from '../assets/img/img3.jpg' 
-import img4 from '../assets/img/img4.jpg' 
-import img5 from '../assets/img/img5.jpg' 
-import img6 from '../assets/img/img6.jpg'
-
-// Fotos de instructores / profesores
-import dr1 from '../assets/img/dr1.webp'
-import dr2 from '../assets/img/dr2.avif'
-import dr3 from '../assets/img/dr3.avif'
 
 /* --- SUB-COMPONENTES AUXILIARES --- */
 
@@ -156,7 +142,6 @@ const LandingPage = () => {
       </section>
 
       {/* --- VIDEO CARACTERÍSTICAS --- */}
-      {/* --- VIDEO CARACTERÍSTICAS --- */}
       <section 
         className="relative min-h-[600px] flex items-center bg-[#0033A0] py-20 overflow-hidden border-y-8 border-[#00843D]" 
         style={{ 
@@ -179,7 +164,6 @@ const LandingPage = () => {
           </div>
           <div className="relative flex justify-center lg:justify-end">
             <div className="w-full max-w-2xl aspect-video rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(210,32,39,0.3)] bg-black border-4 border-[#D22027]">
-              {/* AQUÍ SE ACTUALIZÓ EL ENLACE DEL VIDEO */}
               <iframe className="w-full h-full" src="https://www.youtube.com/embed/0d5VWxcSUIk" title="1. ESTO ES LO QUE DEBES SABER DE MATEMÁTICAS ANTES DE ENTRAR A LA UNIVERSIDAD." allowFullScreen></iframe>
             </div>
           </div>
@@ -193,8 +177,8 @@ const LandingPage = () => {
           <p className="text-[#0033A0] font-bold text-lg mb-16 text-left">Encuentra el nivel ideal para potenciar tus habilidades matemáticas.</p>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 text-left">
             <CourseCard tag="Gratuito" title="Álgebra Básica" subtitle="Fundamentos y Ecuaciones" level="Básico" imageUrl="https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=2070" desc="Aprende las bases fundamentales para resolver cualquier tipo de ecuación." />
-            <CourseCard title="Geometría Analítica" subtitle="Vectores y Cónicas" level="Intermedio" price="s/.20,00" imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU5wiv8P4xWcj6_eWItyuj9oCsW6_s85K-5A&s" desc="Comprende el espacio y las formas con un enfoque analítico y preciso." />
-            <CourseCard title="Cálculo Diferencial" subtitle="Límites y Derivadas" level="Avanzado" price="s/.20,00" imageUrl="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2070" desc="Prepárate para los retos universitarios con nuestro módulo de cálculo avanzado." />
+            <CourseCard title="Geometría Analítica" subtitle="Vectores y Cónicas" level="Intermedio" price="S/ 20.00" imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU5wiv8P4xWcj6_eWItyuj9oCsW6_s85K-5A&s" desc="Comprende el espacio y las formas con un enfoque analítico y preciso." />
+            <CourseCard title="Cálculo Diferencial" subtitle="Límites y Derivadas" level="Avanzado" price="S/ 20.00" imageUrl="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2070" desc="Prepárate para los retos universitarios con nuestro módulo de cálculo avanzado." />
           </div>
         </div>
       </section>
@@ -205,9 +189,9 @@ const LandingPage = () => {
         style={{ 
           backgroundImage: `url(${medicosExperiencia})`, 
           backgroundBlendMode: 'soft-light',
-          backgroundSize: 'contain', /* Muestra la imagen completa sin hacer zoom/recorte */
-          backgroundRepeat: 'no-repeat', /* Evita que la imagen se duplique */
-          backgroundPosition: 'center' /* Centra la imagen en la sección */
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center'
         }}
       >
         <div className="container mx-auto px-8 relative z-10 flex justify-end text-left">
@@ -322,9 +306,6 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-     
-
-      {/* --- IMAGEN PIE --- */}
 
       {/* --- FOOTER FINAL --- */}
       <footer className="bg-[#0033A0] pt-16 pb-12 text-white text-center border-t-8 border-[#00843D]">
